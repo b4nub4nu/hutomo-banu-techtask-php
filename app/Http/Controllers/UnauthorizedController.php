@@ -27,7 +27,7 @@ class UnauthorizedController
      */
     public function send401() : JsonResponse
     {
-        return new JsonResponse(['error' => 'Unauthorizedyyy'], Response::HTTP_UNAUTHORIZED);
+        return new JsonResponse(['error' => 'Unauthorized'], Response::HTTP_UNAUTHORIZED);
     }
 
 }
