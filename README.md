@@ -23,7 +23,7 @@ If the VM does not start, please ensure that you're using the newest version of 
 Installation steps:
 * Login in to the VM with SSH
 * move to directory /var/www/html
-* clone the GitHub repository `git clone https://github.com/loadsmile/hutomo-banu-techtask-php.git` into this directory
+* clone the GitHub repository `git clone https://github.com/b4nub4nu/hutomo-banu-techtask-php.git` into this directory
 * replace the config file /etc/nginx/sites-available/default with ./vagrant/nginx/sites-available/default
 * restart the web server
 * run `composer update` in /var/www/html to get the dependencies
@@ -35,7 +35,7 @@ application with a REST client.
 
 ###GitHub
 
-Clone the repository from https://github.com/loadsmile/hutomo-banu-techtask-php.git to 
+Clone the repository from https://github.com/b4nub4nu/hutomo-banu-techtask-php.git to 
 your web root directory. Configure the nginx or Apache to rewrite all requests
 to index.php. Restart the web server. A sample configuration for nginx can be 
 found under vagrant/nginx.
